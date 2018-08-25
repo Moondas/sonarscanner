@@ -1,6 +1,6 @@
 # Sonar Scanner image
 
-## Arguments and environmetns (build only)
+## Arguments and environments (build only)
 
 `SONAR_SCANNER_VERSION` defines a sonar scanner version and has a default value,
 and most use cases are not modified and suggest we use a same version in all projects
