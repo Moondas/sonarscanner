@@ -1,0 +1,2 @@
+# sonarscanner
+Sonarscanner dockerized version
