@@ -18,4 +18,5 @@ docker run --rm -v `pwd`:/tmp/src vpeti88/sonarscanner [args]
 `projectBaseDir=/tmp/src`
 
 Docker: https://hub.docker.com/r/vpeti88/sonarscanner/
+
 Refer: https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner
