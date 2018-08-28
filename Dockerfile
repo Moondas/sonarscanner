@@ -1,4 +1,8 @@
-FROM joakimbeng/java-node
+FROM node:alpine as node-java
+
+RUN apk --update add openjdk8-jre
+
+FROM node-java as ci-sonar-scanner
 
 ARG SONAR_SCANNER_VERSION
 ENV SONAR_SCANNER_VERSION=${SONAR_SCANNER_VERSION:-3.2.0.1227}
